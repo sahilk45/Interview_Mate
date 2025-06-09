@@ -3,10 +3,10 @@ import Image from 'next/image'
 import { cn } from '@/lib/utils'
 
 enum CallStatus{
-    INACTIVE: 'INACTIVE',
-    CONNECTING : 'CONNECTING',
-    ACTIVE: 'ACTIVE',
-    FINISHED : 'FINISHED',
+    INACTIVE = 'INACTIVE',
+    CONNECTING = 'CONNECTING',
+    ACTIVE = 'ACTIVE',
+    FINISHED = 'FINISHED',
 }
 
 const Agent = ({userName}: AgentProps) => {
